@@ -173,7 +173,7 @@ class Character {
     } else if (randomX < 0) {
       this.walkLeft();
     } else {
-      this.stopX();
+      this.stop();
     }
 
     if (randomY > 0) {
@@ -181,7 +181,7 @@ class Character {
     } else if (randomY < 0) {
       this.walkUp();
     } else {
-      this.stopY();
+      this.stop();
     }
   }
 }
